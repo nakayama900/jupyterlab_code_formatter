@@ -487,4 +487,5 @@ SERVER_FORMATTERS = {
     "scalafmt": CommandLineFormatter(command=["scalafmt", "--stdin"]),
     "rustfmt": CommandLineFormatter(command=["rustfmt"]),
     "astyle": CommandLineFormatter(command=["astyle"]),
+    "fourmolu":CommandLineFormatter(command=["formolu", "--stdin-input-file"])
 }
